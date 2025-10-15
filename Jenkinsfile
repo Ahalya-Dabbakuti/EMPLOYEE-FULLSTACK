@@ -21,7 +21,7 @@ pipeline {
                     rmdir /S /Q "C:\\Program Files\\Apache Software Foundation\\Tomcat 10.1\\webapps\\EmployeeFullStack"
                 )
                 mkdir "C:\\Program Files\\Apache Software Foundation\\Tomcat 10.1\\webapps\\EmployeeFullStack"
-                xcopy /E /I /Y Frontend \\dist\\* "C:\\Program Files\\Apache Software Foundation\\Tomcat 10.1\\webapps\\EmployeeFullStack"
+                xcopy /E /I /Y Frontend\\dist\\* "C:\\Program Files\\Apache Software Foundation\\Tomcat 10.1\\webapps\\EmployeeFullStack"
                 '''
             }
         }
